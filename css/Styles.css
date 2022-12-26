@@ -1,0 +1,99 @@
+body{ 
+    font-family: 'Press Start 2P', cursive;
+    background: rgb(74, 78, 202);
+    width: 640px;
+    height: 480px;
+}
+.entradatexto{   
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    position: absolute;
+    width: 40%;
+    height: 60%;
+    left: 6%;
+    top: 15% ;
+    text-align: center;
+    border-radius: 32px;
+    border-color: black;
+    border-inline-width: 10px;
+
+}
+.logo{  
+    position: absolute;
+    top: 12px;
+    width: 10%;
+    height: 10%;
+}
+.titulo{    
+    position: absolute;
+    font-size: 30px;
+    top: 45px;
+    left: 400px;
+    font-style: italic;
+    
+}
+.botones{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-family: 'Press Start 2P', cursive;
+    padding: 5px;
+    top: 77%;
+    left: 10%;
+    gap: 25px;
+}
+.encriptar{ 
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 32px;
+    width: 200px;
+    height: 50px;
+}
+.desencriptar{  
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 32px;
+    width: 200px;
+    height: 50px;
+}
+.btncopiar{ 
+    position: absolute;
+    display: flex;
+    align-items:baseline;
+    font-family: 'Press Start 2P', cursive;
+    padding: 5px;
+    top: 77%;
+    right: 25%;
+    gap: 25px;
+    width: 10%;
+    height: 7%;
+    border-radius: 32px;
+    text-align: center;
+    font-size: 15px;
+}
+.tcop{
+    align-content: center;
+    text-align: center;
+}
+.foot{  
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    display: flex;
+    top: 86%;
+    text-align: center;
+    padding: 10px;
+    left: 30%;
+}
+.salidatexto{ 
+
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    position: absolute;
+    width: 40%;
+    height: 60%;
+    right: 6%;
+    top: 15%;
+    text-align: center;
+    border-radius: 32px;
+    border-color: black;
+    border-inline-width: 10px;
+}
